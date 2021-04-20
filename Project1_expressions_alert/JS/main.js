@@ -1,5 +1,5 @@
 alert("i'm a window")
-var family="jonsons", daughter="makayla", son="jonah"
+var family="jonsons", daughter="", son=""
 document.write(daughter);
 
 document.write(" is the daughter,")
