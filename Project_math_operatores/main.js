@@ -9,12 +9,15 @@ function addition_Function() {
 }
 
 
-
 function multiplication() {
   var Multi = 10 * 4;
   document.getElementById("M").innerHTML = "10 * 4 = " + Multi;
 }
 
+function percent() {
+  var per = 100 % 10;
+  document.getElementById("P").innerHTML = "100 % 10 " + per;
+}
 
 function Division() {
   var Div = 10/2;
@@ -23,14 +26,14 @@ function Division() {
 // some math problems//
 
 function doubleplus () {
-  var doubleadd = 5
+  var doubleadd = 5;
   document.getElementById("double add").innerHTML = "5 ++ 5" + doubleadd
 }
 
 
 function doublesub () {
-  var subone = 8
-  document.getElementById("sub one").innerHTML = "8 -- 8" + subonen
+  var subone = 8;
+  document.getElementById("sub one").innerHTML = "8 -- 8" + subone
 }
 
 window.alert(Math.random()* 100);
