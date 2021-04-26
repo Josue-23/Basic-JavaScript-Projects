@@ -29,3 +29,4 @@ function not_function() {
 x=10
 y=50
 document.write(x-y);
+//all of my javascript//

@@ -30,7 +30,7 @@ function doubleplus () {
 
 function doublesub () {
   var subone = 8
-  document.getElementById("sub one").innerHTML = "8 -- 8" + subone
+  document.getElementById("sub one").innerHTML = "8 -- 8" + subonen
 }
 
 window.alert(Math.random()* 100);
