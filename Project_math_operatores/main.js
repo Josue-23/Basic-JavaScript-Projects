@@ -1,35 +1,40 @@
-var x = 100 + 500;
-document.write(x);
+function subtraction_Function() {
+  var Subtraction = 5 - 2;
+  document.getElementById("Math").innerHTML = "5 - 2 = " + Subtraction;
+}
+
+function addition_Function() {
+  var Addition = 6 + 4;
+  document.getElementById("C").innerHTML = "6 + 4 = " + Addition;
+}
 
 
-var z = 500-50;
-document.write(z);
+
+function multiplication() {
+  var Multi = 10 * 4;
+  document.getElementById("M").innerHTML = "10 * 4 = " + Multi;
+}
 
 
-var q = 500*200;
-document.write(q);
-
-
-var w = 500/20;
-document.write(w);
+function Division() {
+  var Div = 10/2;
+  document.getElementById("D").innerHTML = "10 / 2 = " + Div;
+}
 // some math problems//
 
-var c = 5;
-c++;
-document.write(c);
+function doubleplus () {
+  var doubleadd = 5
+  document.getElementById("double add").innerHTML = "5 ++ 5" + doubleadd
+}
 
 
-var s = 565.3;
-s--;
-document.write(s);
+function doublesub () {
+  var subone = 8
+  document.getElementById("sub one").innerHTML = "8 -- 8" + subone
+}
 
 window.alert(Math.random()* 100);
 
 
 
 //This is some Javascript i was able to do.//
-
-var element = document.getElementById('id');
-element.onclick = function() {
-  // onclick stuff
-}
