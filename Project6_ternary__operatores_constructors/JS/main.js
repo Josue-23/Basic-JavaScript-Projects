@@ -1,7 +1,7 @@
 function Ride_Function() {
     var Height, Can_ride;
-    Height = document.getElementById("Height").nodeValue;
-    Can_ride = (height < 52) ? "You are too short":"You are tall enough";
+    Height = document.getElementById("Height").value;
+    Can_ride = (Height < 52) ? "You are too short":"You are tall enough";
     document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
 }
 //This is for a ride!//
@@ -19,7 +19,7 @@ function myFunction() {
     "born in " + Tigger.Animal_Color;
 }
 
-//This is a ternary//
+//This is a nested function!//
 
 function count_Function() {
     document.getElementById("Counting").innerHTML= Count();
