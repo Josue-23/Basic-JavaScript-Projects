@@ -7,19 +7,19 @@ function Add_numbers_2() {
 }
 Add_numbers_1();
 Add_numbers_2();
-//global variable//
+//Local variable//
 function Add_nubers_1() {
-    var X = 10;
-    document.write(20 + X + "<br>");
+    var P = 10;
+    document.write(20 + P + "<br>");
 }
 function Add_numbers_2() {
-    document.write(X + 100);
+    document.write(P + 100);
 }
 Add_numbers_1();
 Add_numbers_2();
-//Local variable//
+//Global variable//
 function get_Date () {
-    if (new Date().getHours() < 18) {
+    if (new Date().getHours()  18) {
     document.getElementById("Greetings").innerHTML="How are you today?";
     }
 }
