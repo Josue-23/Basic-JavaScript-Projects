@@ -7,7 +7,7 @@
   margin: auto;
 }
 
-/* Hide the images by default */
+/* Doesn't display the slides*/
 .mySlides {
   display: none;
 }
