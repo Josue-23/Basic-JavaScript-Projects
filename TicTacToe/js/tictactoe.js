@@ -111,7 +111,7 @@ function checkWinConditions() {
     //sqaures are selected the code executes.
     else if (selectedSquares.length >= 9) {
         //This function plays the tie game sound.
-        Audio('./media/tie.mp3');
+        audio('./media/tie.mp3');
         //this function sets a .3 second timer before the rresetGame is called.
         setTimeout(function () { resetGame(); }, 1000);
     }
@@ -188,7 +188,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
         //this conditionj checks if we've reached the endpoint
         if (x1 <= x2 && y1 <= y2) {
             //this condition adds 10 to the previous endx point.
-            if (x < x2) { x =+ 10;}
+            if (x < x2) { x += 10;}
             //this condition adds 10 to the previous end y point.
             if (y < y2) { y += 10;}
             //this condition cancels our animation loop
