@@ -13,13 +13,13 @@ function placeXOrO(squareNumber) {
         //This variable retrieves the html elemts id that was clicked.
         let select = document.getElementById(squareNumber);
         //this condition checks who's turn it is.
-            if (activePlayer ==='X') {
+            if (activePlayer ==='fortnite.1.jpg') {
                 //If activeplayer is equal to 'X', the.png is placed in HTML
-                select.style.backgroundImage = 'url("images/x.png")';
+                select.style.backgroundImage = 'fortnite.1.jpg';
                 //Active player may only be 'X' or 'O' so, if not 'X' it must be 'o'
             } else {
                 //if activeplayer is equal to 'o', the o.png is placed in html
-                select.style.backgroundImage = 'url("images/o.png")'
+                select.style.backgroundImage = 'fortnite.2.jpg'
             }
             //sqaureNumber and activeplayer are concatenated togther and added to array.
             selectedSquares.push(squareNumber + activePlayer);
