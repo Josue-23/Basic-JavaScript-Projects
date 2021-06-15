@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<script>
+    //You're able to use $ as a jQuery 
+$(document).ready(function() {
+    //This is how i locate each code with the id
+    $("html").append(
+        "<body>\
+            <div id='container'>\
+                <div id='inner'>\
+                    <h1>Basic jQuery</h1>\
+                    <p id='1'>paragraph 1</p>\
+                    <p id='2'>paragraph 2</p>\
+                    <p id='3'>paragraph 3</p>\
+                </div>\
+            </div>\
+        </body>"
+//I was just adding a little bit of css here and maken it either hide or show
+    );  
+    $("#2").css({"color":"red"});
+    $("#3").click(function() {
+        $('h1').hide();
+    })
+});
+</script>
+</html>
