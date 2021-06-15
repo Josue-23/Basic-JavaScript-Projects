@@ -1,0 +1,92 @@
+<!DOCTYPE!>
+<html lang="en">
+	<head>
+		<title>Treasure Hotel</title>
+		<meta charsset="utf-8">
+		<link rel="stylesheet" href="./one_page_website.css" type="text/css">
+		
+	</head>
+	
+<body> 
+							<!--Nav -->
+								<div>
+									<ul>
+										<a href="#home"><li>Home</li></a>
+										<a href="#pictures_and_videos"><li>Gallery</li></a>
+										<a href="#contact"><li>resorvations/contact</li></a>
+									</ul>
+								</div>
+							<!--END NAV-->
+						<!--photo-container 1-->
+							<!-- Images used to open the lightbox -->
+							<div class="row">
+								<div class="column">
+									<img src="./photos/Thumbnail_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+									<h3> Our spa and Pool! </h3>
+									<p>Plenty of rooms with amazing views! CHECK IT OUT!! </p>
+								</div>
+							</div>
+						<!--photo container 1-->
+							<div id="pictures_and_videos">
+										<!--Video-->
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/f3XATCauaEs" 
+								frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+												<!--End Video-->
+							</div>
+							<div>
+								<h3> Lots of restruants near by as well! Take a look! </h3>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/BJCxlEA4X6k" 
+								frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+								allowfullscreen></iframe>
+								<p>Let's make your appointment today! </p>
+							</div>
+							
+							<div>
+								<h1>Our amazing view!</h1>
+								<div class="column"></div>
+								<img src="./photos/Thumbnail_2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+							</div>
+							<!--video container-->
+									<!-- The Modal/Lightbox -->
+									<div id="myModal" class="modal">
+										<span class="close cursor" onclick="closeModal()">&times;</span>
+										<div class="modal-content"></div>
+									
+										<div class="mySlides">
+											<div class="numbertext">1 / 4</div>
+											<img src="./photos/Thumbnail_1.jpg" style="width:100%">
+										</div>
+									
+										<div class="mySlides">
+											<div class="numbertext">2 / 4</div>
+											<img src="./photos/Thumbnail_2.jpg" style="width:100%">
+										</div>
+									</div>
+								<div class="P">
+									<h2>Contact here!</h2>
+								</div>
+									
+										<!--contact-->
+						<div id="contact">
+							<form action="" method="post">
+									<input class="INFO" type="text" value="first name"/>
+									<input class="INFO" type="text" value="last name"/></br>
+									<input class="INFO" type="text" value="email"/>
+									<input class="INFO" type="text" value="phone number"/>
+									<div class="form-spacer"></div>
+										
+							</form>
+						</div>
+										<!--contact-->
+									
+										<!--footer-->
+						<div class="foot">
+							<h4 class="terms">Terms and Conditions</h3> 
+							<footer> www.Treasurehotel.com &nbsp; | &nbsp; &copy; 2016 </footer>
+						</div>
+										<!--footer-->
+		<script src="JS/one_page_website.js"></script>
+	
+</body>
+</html>
