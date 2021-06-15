@@ -10,7 +10,7 @@ function getReceipt() {
             var selectedSize = sizeArray[i].value;
             text1 = text1+selectedSize+"<br";
         }
-    }
+    }//these shows the sizes of my menu and how many slices come in it
     if (selectedSize === "Super small") {
         sizeTotal = 6;
     } else if (selectedSize === "Personal Pizza") {
@@ -32,6 +32,7 @@ function getReceipt() {
 
 
 function getTopping(runningTotal,text1) {
+    //these variables will get passed on to each function as well
     var toppingTotal = 0;
     var selectedTopping = [];
     var toppingArray = document.getElementsByClassName("toppings");
@@ -42,6 +43,7 @@ function getTopping(runningTotal,text1) {
             text1 = text1+toppingArray[j].value+"<br>";
         }
     }
+    //this bulk of code is to adding up to total at the end and showing it on the side.
     var toppingCount = selectedTopping.length;
     if (toppingCount > 1) {
         toppingTotal = (toppingCount - 1);
