@@ -13,13 +13,13 @@ function placeXOrO(squareNumber) {
         //This variable retrieves the html elemts id that was clicked.
         let select = document.getElementById(squareNumber);
         //this condition checks who's turn it is.
-            if (activePlayer ==='fortnite.1.jpg') {
+            if (activePlayer ==='x.png') {
                 //If activeplayer is equal to 'X', the.png is placed in HTML
-                select.style.backgroundImage = 'fortnite.1.jpg';
+                select.style.backgroundImage = 'x.png';
                 //Active player may only be 'X' or 'O' so, if not 'X' it must be 'o'
             } else {
                 //if activeplayer is equal to 'o', the o.png is placed in html
-                select.style.backgroundImage = 'fortnite.2.jpg'
+                select.style.backgroundImage = 'o.png'
             }
             //sqaureNumber and activeplayer are concatenated togther and added to array.
             selectedSquares.push(squareNumber + activePlayer);
@@ -230,7 +230,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
             //this variable gets the htmlelemtent of 1
             let square = document.getElementById(String(i))
             //this removes our elements backgroundimage.
-            square.style.backgroundImage = ''
+            square.style.backgroundImage = './'
         }
         //this removes our elements backgroundimage.
         selectedSquares = [];
