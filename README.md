@@ -1,7 +1,7 @@
 # Basic-JavaScript-Projects
-<h2>JavaScript Porjects</h2>
+<h2>JavaScript Projects</h2>
 <br>
-<p>These are some small warm up projects i have made for JavaScript!</p>
+<p>These are some small warm up projects I have made for JavaScript!</p>
 <br>
 <h3>Projects</h3>
 <br>
@@ -17,7 +17,7 @@
 <br>
 <h3>Tic Tac Toe</h3>
 <br>
-<p> I created a fully function Tic Tac Toe game that has different sounds and pictures when you place your x or o down. I plan on working on it a bit longer to make it with content and sounds that kids have  on other games that they enjoy plying!</p>
+<p> I created a fully function Tic Tac Toe game that has different sounds and pictures when you place your x or o down. I plan on working on it a bit longer to make it with content and sounds that kids have on other games that they enjoy plying!</p>
 <br>
 <h3>Calculator</h3>
 <br>
