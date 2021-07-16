@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/stylesheet/my.css">
+    <title>Skiing</title>
+    
+</head>
+
+<body>
+   
+                              <!--Start of Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Welcome</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+               
+                </li>
+                
+            </ul>
+            </div>
+        </div>
+    </nav>
+                                <!--End of Navbar-->
+
+
+                                <!--slide show-->
+
+
+                                <!--End slideshow-->
+
+
+
+
+                                <!--home-->
+                            <div id="Home">
+                                
+                                <h4 class="S">With more than 680 skiable acres and 2,000 vertical feet, 
+                                    <br>White Powder Resort offers big skiing
+                                    <br> at an affordable price. Great for families and beginners, Sunlight also offers
+                                    <br> one one 
+                                    <br>of the best snowmobile <br>
+                                     tours in the state, as well as snowshoeing and cross country skiing.!<br>
+                                Welcome to the White Powder!</h4>
+                                
+                            </div>
+
+                                <!----Pricing---->
+                            
+                                <div class="dropdown">
+                                    <button class="dropbtn">Rentals</button>
+                                    <div class="dropdown-content">
+                                      <a href="#">Skis $25.00</a>
+                                      <a href="#">Helmet $10.00</a>
+                                      <a href="#">Pants&Jackets $10.00</a>
+                                      <a href="#">Daily pass $50.00</a>
+                                      <a href="#">Family pass $200-$500</a>
+                                      
+                                    </div>
+                                </div>
+                                  <!---End pricing-->
+
+
+
+                                  
+                                <!--slide show-->
+
+                                <!-- Container for the image gallery -->
+                                            <div class="container">
+
+                                            <!-- Full-width images with number text -->
+                                            <div class="mySlides">
+                                                <div class="numbertext">1 / 4</div>
+                                                <img src="./static/images/thumbnail.2.jpg" style="width:75%">
+                                            </div>
+
+                                            <div class="mySlides">
+                                                <div class="numbertext">2 / 4</div>
+                                                <img src="./static/images/thumbnail.3.jpg" style="width:75%">
+                                            </div>
+
+                                            <div class="mySlides">
+                                                <div class="numbertext">3 / 4</div>
+                                                <img src="./static/images/thumbnail.4.jpg" style="width:137%">
+                                            </div>
+
+                                            <div class="mySlides">
+                                                <div class="numbertext">4 / 4</div>
+                                                <img src="./static/images/thumbnail.5.jpg" style="width: 75%;">
+                                            </div>
+
+                                            <!-- Next and previous buttons -->
+                                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                            <!-- Image text -->
+                                            <div class="caption-container">
+                                                <p id="caption"></p>
+                                            </div>
+                                        </div>
+
+                                <!--End slideshow-->
+
+                                  
+
+                                <!--start of form-->
+                                
+                                <div class="grid-container">
+                                    <form action="https://formspree.io/f/xnqlbjrg" class="row gy-2 gx-3 align-items-center" method="POST">
+                                    <div class="col-auto">
+                                      <label class="visually-hidden" for="autoSizingInput">Name</label>
+                                      <input type="text" name="name" class="form-control grid-item" id="autoSizingInput" placeholder="Name">
+                                    </div>
+                                    <div class="col-auto">
+                                      <label class="visually-hidden" for="autoSizingInputGroup">Email</label>
+                                      <div class="input-group">
+                                        <div class="input-group-text">@</div>
+                                        <input type="text" name="Email" class="form-control grid-item" id="autoSizingInputGroup" placeholder="Email">
+                                      </div>
+                                    </div>
+                                    <div class="col-auto">
+                                      <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                                      <select class="form-select" id="autoSizingSelect">
+                                        <option selected>Choose...</option>
+                                        <option value="1">Single Rider</option>
+                                        <option value="2">Doubles</option>
+                                        <option value="3">Party (4-8)</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-auto">
+                                      <div class="form-check">
+                                        <input class="form-check-input" name="checkbox1" type="checkbox" id="autoSizingCheck" >
+                                        <label class="form-check-label" for="autoSizingCheck">
+                                          Check off to receive emails!
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="form-check">
+                                          <input class="form-check-input" name="checkbox2" type="checkbox" id="autoSizingCheck">
+                                          <label class="form-check-label" for="autoSizingCheck">
+                                            I accept the Terms of Use & Privacy Policy
+                                          </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                      <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                  </form>
+                                  </div>
+                                  <br>
+                                  
+                                <!--End of form-->
+
+                                  
+                
+                
+
+                               <!--start of about section-->                                         
+                           
+                                <br id="About">
+                                <div class="about-us">
+                                    <h1 class="K">About Us Page</h1>
+                                    <p class="P">We have been around for almost 4 years and have been known for one of the <br>
+                                        greatest resorts ever in Utah! We also have some of the best food here! With many food trucks! Please contact us! <br>
+                                        Our Dailly pass goes up up to only $50.00! With our seasonal pass you would only have to pay $125.00 until we closed for season!
+                                    </p>
+                                </div>
+                                
+                                <!--End about secion-->
+
+
+                                
+                                <!--Back to top-->
+                                <div>
+                                <button id="abc">Top</button>
+                                </div>
+                                <!--End of back to top-->
+
+
+
+                              <!--Start of footer-->
+           
+                              <footer>
+                                  <div class="footer-container">
+                                  <p>Click on the link or give  us a call for any questions<br>385-299-6306</p>
+                                  <button class="btn btn-primary" href="../index.html"> LIFESTYLE </button>
+                                  </div>
+                              </footer>
+                                
+                  
+           
+                             <script src="./static/script/my.js"></script>
+                                <!--end of footer-->
+             
+</body>
+</html>
